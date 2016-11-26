@@ -10,7 +10,7 @@ app.controller('mainController',function ($scope) {
         console.log($scope.newPost);
         $scope.posts.push($scope.newPost);
        console.log($scope.posts);
-        $scope.newPost= {Created_by: '', text: '', Created_at: '' };
+        $scope.newPost= {created_by: '', text: '', Created_at: '' };
     };
 });
 
